@@ -1,0 +1,100 @@
+html, body {
+	background: lightgrey;
+	height: 100%;
+}
+
+#logo {
+	margin-right: 100px;
+}
+
+#logo img {
+	border-width: 0;
+}
+
+#page {
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 100%;
+	background: white url(../img/background.gif) no-repeat;
+}
+
+#header {
+	padding-top: 50px;
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+
+#main {
+	padding-top: 100px;
+	width: 900px;
+	float: left;
+	clear: left;
+	margin-left: 20px;
+}
+
+#footer {
+	padding-top: 50px;
+	margin-left: 20px;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+#navigation {
+	width: 200px;
+	float: left;
+}
+
+#navigation a {
+	font-weight: bold;
+	font-size: 140%;
+}
+
+#content {
+	float: left;
+	width: 700px;
+	margin-bottom: 1em;
+}
+
+#sysnav li {
+	list-style-type: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-left: 1em;
+}
+
+#sysnav {
+	float: left;
+}
+
+#copyright {
+	float: left;
+}
+
+
+
+#content .photos {
+	margin-left: 0;
+	list-style-type: none;
+}
+
+#content .photos li {
+	width: 72px;
+	height: 54px;
+	overflow: hidden;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+	float: left;
+}
+
+.slogan {
+	font-size: 170%;
+}
+
+
+
